@@ -3,7 +3,7 @@
 
     <input wire:model="search" type="text" class="form-control" placeholder="Search users...">
 
-    <table class="table">
+    <table wire:loading.remove class="table mt-5">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -35,4 +35,14 @@
 
         </tbody>
       </table>
+
+
+
+      <div wire:loading>
+        <div class="d-flex justify-content-center mt-5">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+    </div>
 </div>
