@@ -1,10 +1,7 @@
 <div>
 
 
-        <input wire:model="search" type="text" class="form-control" placeholder="Search users...">
-
-
-
+    <input wire:model="search" type="text" class="form-control" placeholder="Search users...">
 
     <table class="table">
         <thead>
